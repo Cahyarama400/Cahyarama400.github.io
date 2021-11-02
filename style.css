@@ -1,0 +1,149 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background: url("https://i.pinimg.com/originals/21/20/34/212034a4eab9075633f9cbfdcac1543e.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #483434;
+}
+.lingkaran i{
+    position: relative;
+    top: 30px;
+}
+
+body {
+    background-color: #b1a1a1;
+    margin: 0px;
+    padding:0px;
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+    size: cover;
+    padding-top: 0%;
+    padding-bottom: 20%;
+}
+header .intro{
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+header .intro h3{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 50%;
+    z-index: -1;
+}
+
+section{
+    padding: 50px 0px 50px 0px;
+}
+
+section h3{
+    font-size: 30px;
+}
+section h3::after{
+    content: "";
+    border-bottom: 5px solid #c86b85;
+    width: 53px;
+    display: block;
+    margin: 20px auto;
+}
+#aboutus{
+    text-align: center;
+}
+section p.ringkasan{
+    font-style: italic;
+    font-size: 18px;
+    color: blue;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.product h6{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.support img{
+    width: 50px;
+}
+section.quote{
+    background: url('quote.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+}
+
+.crop-img{
+    object-fit: cover;
+}
+
+.lokasi img{
+    width: 2500px;
+    border: 1px solid #473d3d;
+}
+a.sosial{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    line-height: 40px;
+}
+
+.contact{
+    background: url("contact.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
